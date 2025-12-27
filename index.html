@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Memória</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script src="game.js"></script>
+</head>
+<body>
+
+    <h1>Jogo da Memória</h1>
+
+    <div id="infos">
+        <span> Tempo: <b id="tempo">0</b>s</span>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <span>Jogadas: <b id="jogadas">0</b></span>
+    </div>
+
+    <button id="btnReiniciar"> Reiniciar Jogo</button>
+
+    <div id="gameBoard"></div>
+
+
+    <audio id="somVirar" src="sounds/click.wav"></audio>
+    <audio id="somAcerto" src="sounds/acerto.wav"></audio>
+    <audio id="somErro"   src="sounds/erro.wav"></audio>
+
+</body>
+</html>
